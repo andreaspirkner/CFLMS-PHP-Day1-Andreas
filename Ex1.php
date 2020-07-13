@@ -2,14 +2,18 @@
 <html>
 <head>
 <title >Print your Name</title>
-<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <!--Print your name in an h1 HTML element using PHP (define the variable and store your name into it).
+    Use external CSS to position your name in the middle of the screen (horizontal, vertical).-->
  <?php echo "<h3>Andreas Neo Pirkner</h3>"; ?>
  <br>
  <hr>
+ <!--Create an else if statement which will be based on the current day. Output a message - if it is Monday,
+ it will return: "Today is Monday!" if it is Tuesday, it will return: "Today is Tuesday!" etc. for every day in the week. -->
  <?php 
 $d=date("D");
 if ($d=="Mon" )
